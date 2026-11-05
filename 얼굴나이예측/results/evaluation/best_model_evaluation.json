@@ -1,0 +1,36 @@
+{
+  "model": "EfficientNetV2-S",
+  "saved_epoch": 9,
+  "sets": {
+    "train": {
+      "count": 10190,
+      "mae": 2.692549541425892,
+      "mse": 15.842711997405612,
+      "rmse": 3.9802904413378695,
+      "r2": 0.9716416703286789,
+      "exact_count": 1658,
+      "exact_accuracy": 0.16270853778213934,
+      "within5_count": 8605,
+      "within_5_years": 0.8444553483807654,
+      "within10_count": 9898,
+      "within_10_years": 0.9713444553483808,
+      "loss": 0.026925722718004856
+    },
+    "validation": {
+      "count": 2546,
+      "mae": 4.988964487824118,
+      "mse": 54.63397660774725,
+      "rmse": 7.391480001173463,
+      "r2": 0.9023169985027311,
+      "exact_count": 272,
+      "exact_accuracy": 0.10683424980361352,
+      "within5_count": 1654,
+      "within_5_years": 0.6496465043205027,
+      "within10_count": 2168,
+      "within_10_years": 0.8515318146111548,
+      "loss": 0.04988964273062449
+    }
+  },
+  "loss_definition": "L1Loss on raw model output versus age/100, before clipping; weighted sample mean.",
+  "evaluation_type": "Saved best checkpoint re-evaluated; not online epoch training loss."
+}

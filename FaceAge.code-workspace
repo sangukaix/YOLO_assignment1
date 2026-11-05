@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "모델 학습",
+      "path": "얼굴나이예측"
+    },
+    {
+      "name": "FaceAge 웹",
+      "path": "얼굴나이예측_발표웹"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "D:\\mbca_home\\YOLO\\전이학습\\.venv\\Scripts\\python.exe"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python"
+    ]
+  }
+}

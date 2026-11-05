@@ -1,0 +1,11 @@
+{
+  "resnet18": {
+    "total_parameters": 11177025
+  },
+  "resnet152": {
+    "total_parameters": 58145857
+  },
+  "efficientnet_v2_s": {
+    "total_parameters": 20178769
+  }
+}

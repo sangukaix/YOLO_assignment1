@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.runtime/
+.env
+.env.*
+!.env.example
+*.pth
+*.pt
+*.tflite
+*.task
+*.exe
+*.zip
+얼굴나이예측/data/

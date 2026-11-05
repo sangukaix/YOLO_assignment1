@@ -1,0 +1,40 @@
+{
+  "dog_revision": "ffe69649279e0c226e7061f917550ca8608abbfe",
+  "files": {
+    "dog_face_localizer.tflite": {
+      "url": "https://huggingface.co/hugocornellier/dog-face-landmarks/resolve/ffe69649279e0c226e7061f917550ca8608abbfe/dog_face_localizer.tflite",
+      "bytes": 17268364,
+      "sha256": "bf13f179335cec6046f5f158e218d4f5ef577f04af2896dbe8afbddc1e814b9d"
+    },
+    "dog_face_landmarks_full.tflite": {
+      "url": "https://huggingface.co/hugocornellier/dog-face-landmarks/resolve/ffe69649279e0c226e7061f917550ca8608abbfe/dog_face_landmarks_full.tflite",
+      "bytes": 11549008,
+      "sha256": "4036cd3d332f75be99e267b414ab74e08d4c3a2d4e123d5df7db543b995dcaca"
+    },
+    "DOG_MODEL_LICENSE.txt": {
+      "url": "https://huggingface.co/hugocornellier/dog-face-landmarks/resolve/ffe69649279e0c226e7061f917550ca8608abbfe/LICENSE",
+      "bytes": 1486,
+      "sha256": "eb9f653eb79fbf6842f97abda60b7cabdc5443532ead52f031833177677a12d8"
+    },
+    "DOG_MODEL_CARD.md": {
+      "url": "https://huggingface.co/hugocornellier/dog-face-landmarks/resolve/ffe69649279e0c226e7061f917550ca8608abbfe/README.md",
+      "bytes": 8120,
+      "sha256": "8e75a6c78245ed12cb7b6c3a7fd87286444bb1667cd8e7a39c638af33f667e31"
+    },
+    "face_landmarker.task": {
+      "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    },
+    "dog_topology.dart": {
+      "url": "https://raw.githubusercontent.com/hugocornellier/dog_detection/main/lib/src/types.dart",
+      "bytes": 13672,
+      "sha256": "eaf9e5d6260be47a4270c424d5ec8a592b6025c3a0543dc16a94dd3762aa5442"
+    },
+    "dogflw_examples.png": {
+      "url": "https://raw.githubusercontent.com/martvelge/DogFLW/main/doges.png",
+      "bytes": 2542313,
+      "sha256": "ce3c1734b963561a9a53a88406cb8f2d5f030199cdcaf4c81fa2764770f41fd0"
+    }
+  }
+}

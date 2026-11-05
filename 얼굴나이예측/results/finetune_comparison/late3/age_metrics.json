@@ -1,0 +1,10 @@
+{
+  "validation_mae": 6.38718776407784,
+  "median_absolute_error": 4.522918701171875,
+  "baseline_mae": 19.380597014925375,
+  "baseline_constant_age": 28.0,
+  "within_5_years": 0.5318146111547526,
+  "validation_count": 2546,
+  "train_count": 10190,
+  "saved_epoch": 10
+}

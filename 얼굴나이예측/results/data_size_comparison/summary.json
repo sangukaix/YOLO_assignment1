@@ -1,0 +1,287 @@
+{
+  "validation_count": 2546,
+  "original_validation_count": 627,
+  "additional_validation_count": 1919,
+  "device": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "results": [
+    {
+      "key": "resnet18_original",
+      "name": "ResNet18 · 기존 사진",
+      "architecture": "resnet18",
+      "training_source_total": 3137,
+      "train_count": 2510,
+      "checkpoint": "D:\\mbca_home\\YOLO\\얼굴나이예측\\results\\age_regression_resnet18_best.pth",
+      "best_epoch": 8,
+      "selection_validation_count": 627,
+      "validation_ids_sha256": "f250a001a3321aed3286e76fc1f706eafa88b5ed1fb6f7678340c589a2c6f821",
+      "validation": {
+        "count": 2546,
+        "mae": 12.779534504718885,
+        "rmse": 16.04347343428234,
+        "mse": 257.3930398365232,
+        "median_absolute_error": 10.978334426879883,
+        "r2": 0.5397932521687914,
+        "within_5_years": 0.27219167321288296,
+        "within_10_years": 0.4673998428908091
+      },
+      "training": {
+        "count": 2510,
+        "mae": 3.9726164833008055,
+        "rmse": 5.389974781604089,
+        "mse": 29.05182814632804,
+        "median_absolute_error": 3.1219234466552734,
+        "r2": 0.9043939813858484,
+        "within_5_years": 0.7286852589641434,
+        "within_10_years": 0.9366533864541833
+      },
+      "original_validation": {
+        "count": 627,
+        "mae": 7.841721025190095,
+        "rmse": 10.527637951670599,
+        "mse": 110.83116084145512,
+        "median_absolute_error": 5.834720611572266,
+        "r2": 0.6336497221453451,
+        "within_5_years": 0.4513556618819777,
+        "within_10_years": 0.7017543859649122
+      },
+      "original_training": {
+        "count": 2510,
+        "mae": 3.9726164833008055,
+        "rmse": 5.389974781604089,
+        "mse": 29.05182814632804,
+        "median_absolute_error": 3.1219234466552734,
+        "r2": 0.9043939813858484,
+        "within_5_years": 0.7286852589641434,
+        "within_10_years": 0.9366533864541833
+      },
+      "additional_validation": {
+        "count": 1919,
+        "mae": 14.392879502980767,
+        "rmse": 17.472252126147456,
+        "mse": 305.27959435966426,
+        "median_absolute_error": 13.476181030273438,
+        "r2": 0.5006153693964615,
+        "within_5_years": 0.2136529442417926,
+        "within_10_years": 0.39082855653986454
+      },
+      "example": {
+        "file": "images/adc0d9d46cc1f4d858ddc2322474a1424b0f29f84325ae36a746ba59bebf5ac0.jpg",
+        "label_age": 20.0,
+        "predicted_age": 40.134735107421875,
+        "absolute_error": 20.134735107421875
+      },
+      "original_source_gap": 3.8691045418892895
+    },
+    {
+      "key": "resnet18_merged",
+      "name": "ResNet18 · 통합 사진",
+      "architecture": "resnet18",
+      "training_source_total": 12736,
+      "train_count": 10190,
+      "checkpoint": "D:\\mbca_home\\YOLO\\얼굴나이예측\\results\\merged\\age_regression_resnet18_best.pth",
+      "best_epoch": 8,
+      "selection_validation_count": 2546,
+      "validation_ids_sha256": "f250a001a3321aed3286e76fc1f706eafa88b5ed1fb6f7678340c589a2c6f821",
+      "validation": {
+        "count": 2546,
+        "mae": 6.054514292361363,
+        "rmse": 8.641427928434089,
+        "mse": 74.67427664232066,
+        "median_absolute_error": 3.989818572998047,
+        "r2": 0.8664858769217815,
+        "within_5_years": 0.5648075412411626,
+        "within_10_years": 0.7977219167321288
+      },
+      "training": {
+        "count": 10190,
+        "mae": 3.5772833218965983,
+        "rmse": 5.275117999088024,
+        "mse": 27.82686990430243,
+        "median_absolute_error": 2.448793411254883,
+        "r2": 0.9501901220828607,
+        "within_5_years": 0.7535819430814524,
+        "within_10_years": 0.9389597644749754
+      },
+      "original_validation": {
+        "count": 627,
+        "mae": 7.4725322099773885,
+        "rmse": 9.77455917793685,
+        "mse": 95.54200712298949,
+        "median_absolute_error": 5.80133056640625,
+        "r2": 0.684187726713708,
+        "within_5_years": 0.4449760765550239,
+        "within_10_years": 0.7240829346092504
+      },
+      "original_training": {
+        "count": 2510,
+        "mae": 4.056406114395871,
+        "rmse": 5.451928702594528,
+        "mse": 29.72352657817405,
+        "median_absolute_error": 3.0502662658691406,
+        "r2": 0.9021835038745981,
+        "within_5_years": 0.7055776892430279,
+        "within_10_years": 0.9302788844621513
+      },
+      "additional_validation": {
+        "count": 1919,
+        "mae": 5.591201507397711,
+        "rmse": 8.237481852929914,
+        "mse": 67.85610727734966,
+        "median_absolute_error": 3.4970550537109375,
+        "r2": 0.8889991414658056,
+        "within_5_years": 0.6039603960396039,
+        "within_10_years": 0.8217821782178217
+      },
+      "example": {
+        "file": "images/adc0d9d46cc1f4d858ddc2322474a1424b0f29f84325ae36a746ba59bebf5ac0.jpg",
+        "label_age": 20.0,
+        "predicted_age": 43.77540969848633,
+        "absolute_error": 23.775409698486328
+      },
+      "original_source_gap": 3.416126095581517
+    },
+    {
+      "key": "efficientnet_small",
+      "name": "EfficientNetV2-S · 기존 사진",
+      "architecture": "efficientnet_v2_s",
+      "training_source_total": 3137,
+      "train_count": 2510,
+      "checkpoint": "D:\\mbca_home\\YOLO\\얼굴나이예측\\results\\data_size_comparison\\efficientnet_v2_s_small\\age_regression_best.pth",
+      "best_epoch": 2,
+      "selection_validation_count": 2546,
+      "validation_ids_sha256": "f250a001a3321aed3286e76fc1f706eafa88b5ed1fb6f7678340c589a2c6f821",
+      "validation": {
+        "count": 2546,
+        "mae": 11.675512607131104,
+        "rmse": 15.065760458569267,
+        "mse": 226.97713819498927,
+        "median_absolute_error": 9.50811767578125,
+        "r2": 0.5941754654007206,
+        "within_5_years": 0.28515318146111546,
+        "within_10_years": 0.5208169677926159
+      },
+      "training": {
+        "count": 2510,
+        "mae": 9.451511669420151,
+        "rmse": 12.74075463464103,
+        "mse": 162.3268286601269,
+        "median_absolute_error": 7.302055358886719,
+        "r2": 0.46580223026626133,
+        "within_5_years": 0.3557768924302789,
+        "within_10_years": 0.6310756972111554
+      },
+      "original_validation": {
+        "count": 627,
+        "mae": 11.016116468981503,
+        "rmse": 14.288235763897344,
+        "mse": 204.1536812447151,
+        "median_absolute_error": 9.056488037109375,
+        "r2": 0.32517391967009845,
+        "within_5_years": 0.291866028708134,
+        "within_10_years": 0.5502392344497608
+      },
+      "original_training": {
+        "count": 2510,
+        "mae": 9.451511669420151,
+        "rmse": 12.74075463464103,
+        "mse": 162.3268286601269,
+        "median_absolute_error": 7.302055358886719,
+        "r2": 0.46580223026626133,
+        "within_5_years": 0.3557768924302789,
+        "within_10_years": 0.6310756972111554
+      },
+      "additional_validation": {
+        "count": 1919,
+        "mae": 11.890958870090873,
+        "rmse": 15.311247738102669,
+        "mse": 234.43430729755408,
+        "median_absolute_error": 9.741302490234375,
+        "r2": 0.6165060092006791,
+        "within_5_years": 0.2829598749348619,
+        "within_10_years": 0.5112037519541428
+      },
+      "example": {
+        "file": "images/adc0d9d46cc1f4d858ddc2322474a1424b0f29f84325ae36a746ba59bebf5ac0.jpg",
+        "label_age": 20.0,
+        "predicted_age": 28.69373893737793,
+        "absolute_error": 8.69373893737793
+      },
+      "original_source_gap": 1.5646047995613515
+    },
+    {
+      "key": "efficientnet_merged",
+      "name": "EfficientNetV2-S · 통합 사진",
+      "architecture": "efficientnet_v2_s",
+      "training_source_total": 12736,
+      "train_count": 10190,
+      "checkpoint": "D:\\mbca_home\\YOLO\\얼굴나이예측\\results\\architectures\\efficientnet_v2_s\\age_regression_best.pth",
+      "best_epoch": 9,
+      "selection_validation_count": 2546,
+      "validation_ids_sha256": "f250a001a3321aed3286e76fc1f706eafa88b5ed1fb6f7678340c589a2c6f821",
+      "validation": {
+        "count": 2546,
+        "mae": 4.988964376949178,
+        "rmse": 7.391465445709797,
+        "mse": 54.633761435121926,
+        "median_absolute_error": 3.1182518005371094,
+        "r2": 0.9023173832213474,
+        "within_5_years": 0.6496465043205027,
+        "within_10_years": 0.8515318146111548
+      },
+      "training": {
+        "count": 10190,
+        "mae": 2.6925490854591336,
+        "rmse": 3.9802877711958047,
+        "mse": 15.842690741530868,
+        "median_absolute_error": 1.7264776229858398,
+        "r2": 0.9716417083765273,
+        "within_5_years": 0.8444553483807654,
+        "within_10_years": 0.9713444553483808
+      },
+      "original_validation": {
+        "count": 627,
+        "mae": 6.211161128261633,
+        "rmse": 8.443712601592315,
+        "mse": 71.29628249828886,
+        "median_absolute_error": 4.620674133300781,
+        "r2": 0.764331504741558,
+        "within_5_years": 0.5342902711323764,
+        "within_10_years": 0.7814992025518341
+      },
+      "original_training": {
+        "count": 2510,
+        "mae": 3.189626556943612,
+        "rmse": 4.393025249751814,
+        "mse": 19.298670844956984,
+        "median_absolute_error": 2.289609909057617,
+        "r2": 0.9364904310070227,
+        "within_5_years": 0.7920318725099602,
+        "within_10_years": 0.9645418326693227
+      },
+      "additional_validation": {
+        "count": 1919,
+        "mae": 4.589632765134217,
+        "rmse": 7.013527741784462,
+        "mse": 49.18957138478026,
+        "median_absolute_error": 2.7218399047851562,
+        "r2": 0.9195343665630193,
+        "within_5_years": 0.6873371547681084,
+        "within_10_years": 0.8744137571651902
+      },
+      "example": {
+        "file": "images/adc0d9d46cc1f4d858ddc2322474a1424b0f29f84325ae36a746ba59bebf5ac0.jpg",
+        "label_age": 20.0,
+        "predicted_age": 22.72840118408203,
+        "absolute_error": 2.7284011840820312
+      },
+      "original_source_gap": 3.021534571318021
+    }
+  ],
+  "conditions": "EfficientNet same ImageNet weights, seed42, batch32, 224x224, Adam, L1Loss, 10 epochs, fine-tuning from epoch3, Dropout off; train 2510 vs10190; selection validation same2546.",
+  "limitations": [
+    "Model-selection validation; no independent final test.",
+    "Single seed; age/source distribution changes with added data.",
+    "No person-ID split; exact pixel duplicates excluded.",
+    "Old ResNet18 checkpoint selected using627; EfficientNet checkpoints both selected using2546."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "train_count": 10190,
+  "validation_count": 2546,
+  "selected_strategy": "early8",
+  "practical_tie_years": 0.1,
+  "selection_rule": "lowest validation MAE; within 0.10 years prefer fewer fine-tuning epochs",
+  "results": [
+    {
+      "mae": 10.227446843526865,
+      "rmse": 13.808813210751484,
+      "within_5_years": 0.3680282796543598,
+      "within_10_years": 0.5997643362136685,
+      "strategy": "fc_only",
+      "label": "FC only",
+      "planned_finetune_epochs": 0,
+      "best_epoch": 10,
+      "actual_finetune_epochs": 0,
+      "train_eval_mae": 9.524368339266639,
+      "generalization_gap": 0.7030785042602261,
+      "trainable_parameters_at_selected_epoch": 513,
+      "checkpoint": "D:\\mbca_home\\YOLO\\\uc5bc\uad74\ub098\uc774\uc608\uce21\\results\\finetune_comparison\\fc_only\\age_regression_resnet18_best.pth",
+      "original_627": {
+        "mae": 11.2350820890454,
+        "rmse": 14.621908091850463,
+        "within_5_years": 0.30462519936204147,
+        "within_10_years": 0.5518341307814992
+      }
+    },
+    {
+      "mae": 6.38718776407784,
+      "rmse": 8.984602995350786,
+      "within_5_years": 0.5318146111547526,
+      "within_10_years": 0.7831893165750197,
+      "strategy": "late3",
+      "label": "Late fine-tuning (max 3)",
+      "planned_finetune_epochs": 3,
+      "best_epoch": 10,
+      "actual_finetune_epochs": 3,
+      "train_eval_mae": 4.7041530869835375,
+      "generalization_gap": 1.6830346770943025,
+      "trainable_parameters_at_selected_epoch": 8394241,
+      "checkpoint": "D:\\mbca_home\\YOLO\\\uc5bc\uad74\ub098\uc774\uc608\uce21\\results\\finetune_comparison\\late3\\age_regression_resnet18_best.pth",
+      "original_627": {
+        "mae": 7.299031256108383,
+        "rmse": 9.70773926168224,
+        "within_5_years": 0.4513556618819777,
+        "within_10_years": 0.7384370015948963
+      }
+    },
+    {
+      "mae": 6.054515906041235,
+      "rmse": 8.641429387601123,
+      "within_5_years": 0.5648075412411626,
+      "within_10_years": 0.7977219167321288,
+      "strategy": "early8",
+      "label": "Current fine-tuning (max 8)",
+      "planned_finetune_epochs": 8,
+      "best_epoch": 8,
+      "actual_finetune_epochs": 6,
+      "train_eval_mae": 3.5772830729492298,
+      "generalization_gap": 2.4772328330920055,
+      "trainable_parameters_at_selected_epoch": 8394241,
+      "checkpoint": "D:\\mbca_home\\YOLO\\\uc5bc\uad74\ub098\uc774\uc608\uce21\\results\\merged\\age_regression_resnet18_best.pth",
+      "original_627": {
+        "mae": 7.4725322099773885,
+        "rmse": 9.77455917793685,
+        "within_5_years": 0.4449760765550239,
+        "within_10_years": 0.7240829346092504
+      }
+    }
+  ],
+  "control_checks": {
+    "same_initial_results": true,
+    "frozen_weights_unchanged": true
+  },
+  "limitation": "Single seed, model-selection validation; no independent final test."
+}
